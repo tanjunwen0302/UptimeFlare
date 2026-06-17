@@ -18,7 +18,7 @@ const workerConfig: WorkerConfig = {
       name: 'jdidc',
       method: 'TCP_PING',
       target: '154.201.73.154:22', // 默认监控网页80端口。若监控SSH请改为 154.201.73.154:22
-      tooltip: '检测 154.201.73.154 的连通性',
+      tooltip: '',
       timeout: 5000,
     },
     {
@@ -26,7 +26,7 @@ const workerConfig: WorkerConfig = {
       name: 'nosla',
       method: 'TCP_PING',
       target: '188.95.70.247:22',  // 默认监控网页80端口。若监控SSH请改为 188.95.70.247:22
-      tooltip: '检测 188.95.70.247 的连通性',
+      tooltip: '',
       timeout: 5000,
     },
     {
@@ -34,7 +34,7 @@ const workerConfig: WorkerConfig = {
       name: '阿里云-杭州',
       method: 'TCP_PING',
       target: '47.99.114.201:22',  // 默认监控网页80端口。若监控SSH请改为 47.99.114.201:22
-      tooltip: '检测 47.99.114.201 的连通性',
+      tooltip: '',
       timeout: 5000,
     },
   ],
